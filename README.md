@@ -8,3 +8,4 @@ $ chmod +x /etc/rc.local
 $ cp XS7-SetupStorageDevices.sh /usr/local/     	
 $ echo "/usr/local/XS7-SetupStorageDevices.sh" >>/etc/rc.local	
 ```
+Devices should now show under 'Removable Devices' on the node and can be attached to any VM.

@@ -1,7 +1,7 @@
 # XS7-SetupStorageDevices.sh
-Bash script to symlink whole physical disks into /dev/xapi/block using blkid in a persistent manner.
+Bash script to symlink whole physical disks into /dev/xapi/block using blkid in a persistent manner on XenServer 7.
 
-# Usage
+## Usage
 Upload the script to a directory on the XenServer node and execute the following commands:-
 ```
 $ chmod +x /etc/rc.local     				        
